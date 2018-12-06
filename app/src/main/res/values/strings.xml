@@ -48,9 +48,11 @@
     <string name="statistics_last_month">Tháng trước</string>
     <string name="title_overview">Tổng quan</string>
     <string name="statistic_sum_income">Tổng thu:</string>
+    <string name="title_alarm">Ghi nhớ</string>
     <string name="statistic_sum_spending">Tổng chi:</string>
     <string name="statistic_sum_salary_gain">Tháng này bạn đã thu được:</string>
     <string name="statistic_sum_salary_reduce">Tháng này bạn đã lỗ mất:</string>
+    <string name="alarm_today">Today</string>
     <integer-array name="array_color">
         <item>@color/color_blue</item>
         <item>@color/color_red</item>

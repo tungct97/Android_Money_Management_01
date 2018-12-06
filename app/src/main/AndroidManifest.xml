@@ -44,6 +44,11 @@
         <activity android:name=".screen.navigationdrawer.NavigationDrawerActivity" />
         <activity android:name=".screen.income.IncomeAddActivity" />
         <activity android:name=".screen.spending.SpendingAddActivity" />
+        <activity android:name=".screen.alarm.AlarmActivity" />
+        <service
+            android:name=".screen.alarm.AlarmService"
+            android:enabled="true" />
+        <receiver android:name=".screen.alarm.AlarmBroadcastReceiver" />
     </application>
 
 </manifest>

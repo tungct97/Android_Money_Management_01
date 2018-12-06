@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.framgia.moneymanagement.R;
+import com.framgia.moneymanagement.screen.alarm.AlarmActivity;
 import com.framgia.moneymanagement.screen.income.IncomeFragment;
 import com.framgia.moneymanagement.screen.spending.SpendingFragment;
 import com.framgia.moneymanagement.screen.statistics.StatisticsFragment;
@@ -87,6 +88,7 @@ public class NavigationDrawerActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_notification:
+                startActivity(AlarmActivity.getIntent(getApplicationContext()));
                 break;
             default:
                 break;
